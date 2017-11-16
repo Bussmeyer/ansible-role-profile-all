@@ -5,6 +5,7 @@
   with_items:
     - alfred
     - box-sync
+    - drawio
     - microsoft-lync
     - microsoft-teams
     - vlc
