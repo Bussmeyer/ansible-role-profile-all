@@ -1,0 +1,78 @@
+---
+osx_defaults:
+  - domain: 'NSGlobalDomain' # Set sidebar icon size to medium
+    key: 'NSTableViewDefaultSizeMode'
+    type: integer
+    value: 2
+  - domain: 'com.apple.screencapture'
+    key: 'type'
+    type: string
+    value: png
+  - domain: 'com.apple.menuextra.battery'
+    key: 'ShowPercent'
+    type: string
+    value: 'YES'
+  - domain: 'NSGlobalDomain' # Expand save panel by default
+    key: 'NSNavPanelExpandedStateForSaveMode'
+    type: boolean
+    value: true
+  - domain: 'NSGlobalDomain' # Expand save panel by default
+    key: 'NSNavPanelExpandedStateForSaveMode2'
+    type: boolean
+    value: true
+  - domain: 'NSGlobalDomain' # Expand print panel by default
+    key: 'PMPrintingExpandedStateForPrint'
+    type: boolean
+    value: true
+  - domain: 'NSGlobalDomain' # Expand print panel by default
+    key: 'PMPrintingExpandedStateForPrint2'
+    type: boolean
+    value: true
+  - domain: 'com.apple.dock'
+    key: 'tilesize'
+    type: float
+    value: 32
+  - domain: 'com.apple.dock'
+    key: 'autohide-time-modifier'
+    type: int
+    value: 0
+  - domain: 'com.apple.dock'
+    key: 'autohide-delay'
+    type: int
+    value: 0
+  - domain: 'com.apple.desktopservices' # http://www.defaults-write.com/disable-the-creation-of-ds_store-files/
+    key: 'DSDontWriteNetworkStores'
+    type: boolean
+    value: true
+  - domain: 'com.apple.print.PrintingPrefs' # Automatically quit printer app once the print jobs complete
+    key: 'Quit When Finished'
+    type: boolean
+    value: true
+  - domain: 'com.apple.Safari'
+    key: 'IncludeInternalDebugMenu'
+    type: boolean
+    value: true
+  - domain: 'com.apple.Safari'
+    key: 'IncludeDevelopMenu'
+    type: boolean
+    value: true
+  - domain: 'com.apple.Safari'
+    key: 'WebKitDeveloperExtrasEnabledPreferenceKey'
+    type: boolean
+    value: true
+  - domain: 'com.apple.Safari'
+    key: 'com.apple.Safari.ContentPageGroupIdentifier.WebKit2DeveloperExtrasEnabled'
+    type: boolean
+    value: true
+  - domain: 'NSGlobalDomain'
+    key: 'WebKitDeveloperExtras'
+    type: boolean
+    value: true
+  - domain: 'NSGlobalDomain' # http://www.defaults-write.com/save-to-disk-not-to-icloud-by-default/
+    key: 'NSDocumentSaveNewDocumentsToCloud'
+    type: boolean
+    value: false
+  - domain: 'NSGlobalDomain' # http://www.defaults-write.com/disable-full-screen-animation-of-os-x/
+    key: 'NSWindowResizeTime'
+    type: float
+    value: 0.001
